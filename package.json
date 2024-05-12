@@ -1,0 +1,22 @@
+{
+  "name": "valorant-xmpp",
+  "version": "1.0.0",
+  "description": "",
+  "author": "windowsed1225",
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc -t ."
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.1",
+    "@types/node": "^20.10.0"
+  },
+  "dependencies": {
+    "@types/color": "^3.0.6",
+    "axios": "^1.6.2",
+    "fast-xml-parser": "^4.3.2"
+  }
+}

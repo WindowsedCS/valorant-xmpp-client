@@ -1,0 +1,12 @@
+import { XmppRegionObject } from '../helpers/endpoints';
+export declare const xmlDeclaration: (region: XmppRegionObject) => string;
+export declare const mechanism: (authToken: string, pasToken: string) => Object;
+export declare const clientName: () => Object;
+export declare const setEntitlements: (entitlementsToken: string) => Object;
+export declare const rxep: () => Object;
+export declare const setupSession: () => Object;
+export declare const fetchFriends: () => Object;
+export declare const sendFriendRequest: (username: string, tagline: string) => Object;
+export declare const removeOutgoingFriendRequest: (jid: string) => Object;
+export declare const acceptFriendRequest: (puuid: string) => Object;
+export declare const sendMessage: (content: string, jid: String, domain: String) => Object;
